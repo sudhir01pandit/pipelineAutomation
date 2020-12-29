@@ -1,14 +1,10 @@
 package Academy;
 
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-
 
 public class BrowserTest {
 
@@ -24,8 +20,5 @@ public class BrowserTest {
 		System.out.println(text);
 		Assert.assertTrue(text.equalsIgnoreCase("RahulShettyAcademy.com Learning"));
 		driver.close();
-	
-		
-		
 	}
 }
